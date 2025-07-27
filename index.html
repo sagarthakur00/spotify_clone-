@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="logo.jpg" alt=""><span class="spot"> Spotify</span></li>
+            <li> Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songList"></div>
+        <h1>This is Best Song List</h1>
+        <div class="song">
+            <div class="songItem">
+                <img src="songlogo.png" class="logo" alt="1">
+                <span class="songName"> let me love you</span>
+                <span class="songplay"><span class="timeStamp">5:6 <i class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="songlogo.png" class="logo" alt="2">
+                <span class="songName"> let me love you</span>
+                <span class="songplay"><span class="timeStamp">5:6 <i class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="songlogo.png" class="logo" alt="3">
+                <span class="songName"> let me love you</span>
+                <span class="songplay"><span class="timeStamp">5:6 <i class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="songlogo.png" class="logo" alt="4">
+                <span class="songName"> let me love you</span>
+                <span class="songplay"><span class="timeStamp">5:6 <i class="far songItemPlay fa-play-circle"></i></span></span>
+                
+            </div>
+            <div class="songItem">
+                <img src="songlogo.png" class="logo" alt="5">
+                <span class="songName"> let me love you</span>
+                <span class="songplay"><span class="timeStamp">5:6 <i class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="songlogo.png" class="logo" alt="6">
+                <span class="songName"> let me love you</span>
+                <span class="songplay"><span class="timeStamp">5:6 <i class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icon">
+            <!-- fontAowsome -->
+            <i class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay" ></i>
+            <!-- <i class="far fa-3x fa-play-circle" id="masterPlay"></i> -->
+            <i class="fa-solid fa-3x fa-forward-step"></i>
+            
+
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" width="47px">let me love you
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b248b4b6bc.js" crossorigin="anonymous"></script>
+    <script src="src.js"></script>
+</body>
+</html>

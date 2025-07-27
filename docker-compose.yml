@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  spotify-clone:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: spotify-clone-app
+    restart: unless-stopped
